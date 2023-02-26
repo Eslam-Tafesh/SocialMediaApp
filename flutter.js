@@ -358,5 +358,8 @@ _flutter.loader = null;
   }
 
   _flutter.loader = new FlutterLoader();
+    _flutter.loader.addOptions({
+    'dart-flags': '--web-renderer=html',
+  });
 })();
 
